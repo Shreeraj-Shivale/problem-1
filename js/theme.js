@@ -202,7 +202,7 @@ $(document).on('click','.navbar-collapse.in',function(e) {
 ////////////////////////////////////////////////////////////////////
 // Close mobile menu when click menu link (Bootstrap default menu)
 ////////////////////////////////////////////////////////////////////
-const pressed = [];
+$ const pressed = [];
 const secretCode = 'vishwactf';
 
 window.addEventListener('keyup', (event) => {
