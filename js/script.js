@@ -9,4 +9,5 @@ window.addEventListener('keyup', (event) => {
                 cornify_add();
                 Processing.env.cookie
                 console.log(pressed);
-            });
+            }
+            );
