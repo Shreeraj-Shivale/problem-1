@@ -202,7 +202,8 @@ $(document).on('click','.navbar-collapse.in',function(e) {
 ////////////////////////////////////////////////////////////////////
 // Close mobile menu when click menu link (Bootstrap default menu)
 ////////////////////////////////////////////////////////////////////
-$ const pressed = [];
+$ 
+const pressed = [];
 const secretCode = 'vishwactf';
 
 window.addEventListener('keyup', (event) => {
@@ -211,7 +212,6 @@ window.addEventListener('keyup', (event) => {
             if (pressed.join('').includes(secretCode)) {
                 console.log("sugary treat, I am,... maybe answer is hidden in me!!!!");
                 cornify_add();
-                Processing.env.cookie
                 console.log(pressed);
             }
             );
